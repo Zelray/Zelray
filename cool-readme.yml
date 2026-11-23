@@ -1,8 +1,15 @@
 # Settings for the Cool README cards action (see .github/workflows/cool-readme.yml).
 # Full options: https://github.com/pedrocatalao/github-cool-readme#settings
-show: [summary, languages, contributions, weekly]
+show: [about, languages, summary, contributions]
 count:
   private: true
   orgs: true
 look:
-  style: classic
+  style: dotmatrix
+  color: amber
+  background: 0d0b07
+cards:
+  about:
+    headline: "Hi, I'm *Mike*"
+    lines:
+      - "Systems thinker and PM - I break big problems into small, working pieces."
