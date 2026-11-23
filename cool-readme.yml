@@ -1,0 +1,8 @@
+# Settings for the Cool README cards action (see .github/workflows/cool-readme.yml).
+# Full options: https://github.com/pedrocatalao/github-cool-readme#settings
+show: [summary, languages, contributions, weekly]
+count:
+  private: true
+  orgs: true
+look:
+  style: classic
